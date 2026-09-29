@@ -17,13 +17,58 @@ certo.addEventListener("click", async () => {
     certo.style.color = "green"
     document.body.style.backgroundColor = "green"
     correct.play()
-    
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0.1
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0.15
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0.2
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0.2
+        correct.play
+    setTimeout(() => {
+        correct.pause
+        correct.currentTime = 0.2
+        correct.play
+    }, 5);
+    }, 5);
+    }, 5);
+    }, 10);
+    }, 25);
+    }, 50);
+    }, 100);
+    }, 200);
+    }, 500);
+
     localStorage.setItem("acertos", localStorage.getItem("acertos") + 1)
 
     setTimeout(() => {
         console.log("a");
-      window.location.href = "questao" + proxima.textContent + ".html"
-    }, 800);
+      window.location.href = "fim.html"
+    }, 2500);
 }
 })
 
@@ -36,7 +81,7 @@ botao1.addEventListener("click", () => {
     botao3.style.color = "gray"
     certo.style.color = "green"
         setTimeout(() => {
-            window.location.href = "questao" + proxima.textContent + ".html"
+         window.location.href = "fim.html"
     }, 800);
 }})
 
@@ -49,7 +94,7 @@ botao2.addEventListener("click", () => {
     botao3.style.color = "gray"
     certo.style.color = "green"
         setTimeout(() => {
-           window.location.href = "questao" + proxima.textContent + ".html"
+         window.location.href = "fim.html"
     }, 800);
 }})
 
@@ -62,6 +107,6 @@ botao3.addEventListener("click", () => {
     botao3.style.color = "blue"
     certo.style.color = "green"
         setTimeout(() => {
-          window.location.href = "questao" + proxima.textContent + ".html"
+          window.location.href = "fim.html"
     }, 800);
 }})

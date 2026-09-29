@@ -26,3 +26,6 @@ button {
 button:hover {
     background-color: rgb(27, 27, 27);
 }
+h6 {
+    visibility: hidden;
+}
